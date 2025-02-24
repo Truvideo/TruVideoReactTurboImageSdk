@@ -1,4 +1,5 @@
 #import "TruvideoReactTurboImageSdk.h"
+#import "truvideo_react_turbo_image_sdk-Swift.h"
 
 @implementation TruvideoReactTurboImageSdk
 RCT_EXPORT_MODULE()
@@ -9,15 +10,16 @@ RCT_EXPORT_MODULE()
     return result;
 }
 
-- (void)getFilePath:(nonnull NSString *)fileName resolve:(nonnull RCTPromiseResolveBlock)resolve reject:(nonnull RCTPromiseRejectBlock)reject { 
-  TruvideoReactTurboImageSdk *tvrtcsc = [[TruvideoReactTurboImageSdk alloc] init];
-  [tvrtcsc getFilePath:fileName resolve:resolve reject:reject];
+- (void)getFilePath:(nonnull NSString *)fileName resolve:(nonnull RCTPromiseResolveBlock)resolve reject:(nonnull RCTPromiseRejectBlock)reject {
+  
+  TruvideoReactTurboImageSdkClass *tvrtcsc = [[TruvideoReactTurboImageSdkClass alloc] init];
+  [tvrtcsc getResultPathWithPath:fileName resolve:resolve reject:reject];
 }
 
 
 - (void)launchImageEdit:(nonnull NSString *)inputPath outputPath:(nonnull NSString *)outputPath resolve:(nonnull RCTPromiseResolveBlock)resolve reject:(nonnull RCTPromiseRejectBlock)reject { 
-  TruvideoReactTurboImageSdk *tvrtcsc = [[TruvideoReactTurboImageSdk alloc] init];
-  [tvrtcsc launchImageEdit:inputPath outputPath:outputPath resolve:resolve reject:reject];
+  TruvideoReactTurboImageSdkClass *tvrtcsc = [[TruvideoReactTurboImageSdkClass alloc] init];
+  [tvrtcsc launchImageEditWithInputPath:inputPath outputPath:outputPath resolve:resolve reject:reject];
 }
 
 

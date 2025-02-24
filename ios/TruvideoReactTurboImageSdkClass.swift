@@ -1,24 +1,18 @@
 //
-//  TruvideoReactTurboImage.swift
+//  TruvideoReactImageSDKClass.swift
 //  truvideo-react-turbo-image-sdk
 //
-//  Created by mac on 10/02/2025.
+//  Created by mac on 21/02/2025.
 //
 
-import Foundation
 import Foundation
 import UIKit
 import TruvideoSdkImage
 import React
-@objc(TruVideoReactImageSdk)
-class TruVideoReactImageSdk: NSObject {
-    
-    
-  @objc func multiply(a: Float, b: Float) -> Void {
-    }
-    
-    
-  @objc func getResultPath(path: String,resolve: RCTPromiseResolveBlock, reject: RCTPromiseRejectBlock) {
+
+@objc public class TruvideoReactTurboImageSdkClass: NSObject{
+  
+  @objc public func getResultPath(path: String,resolve: RCTPromiseResolveBlock, reject: RCTPromiseRejectBlock) {
         let fileManager = FileManager.default
         
         do {
@@ -37,7 +31,7 @@ class TruVideoReactImageSdk: NSObject {
     }
     
    
-  @objc func launchImageEdit(inputPath: String,outputPath: String,resolve: @escaping RCTPromiseResolveBlock, reject: @escaping RCTPromiseRejectBlock) {
+  @objc public func launchImageEdit(inputPath: String,outputPath: String,resolve: @escaping RCTPromiseResolveBlock, reject: @escaping RCTPromiseRejectBlock) {
         guard let rootViewController = UIApplication.shared.keyWindow?.rootViewController else {
             print("E_NO_ROOT_VIEW_CONTROLLER", "No root view controller found")
             let error = NSError(domain: "com.TruvideoImageSDk.ImageSDK", code: 500, userInfo: [NSLocalizedDescriptionKey: "No root view controller found"])
@@ -60,5 +54,5 @@ class TruVideoReactImageSdk: NSObject {
             reject("NO_PATH_Found", "Failed to get directory path", error)
         }
     }
-    
+  
 }
