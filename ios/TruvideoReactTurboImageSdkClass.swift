@@ -31,27 +31,29 @@ import React
     }
     
    
-  @objc public func launchImageEdit(inputPath: String,outputPath: String,resolve: @escaping RCTPromiseResolveBlock, reject: @escaping RCTPromiseRejectBlock) {
-        guard let rootViewController = UIApplication.shared.keyWindow?.rootViewController else {
-            print("E_NO_ROOT_VIEW_CONTROLLER", "No root view controller found")
-            let error = NSError(domain: "com.TruvideoImageSDk.ImageSDK", code: 500, userInfo: [NSLocalizedDescriptionKey: "No root view controller found"])
-            reject("E_NO_ROOT_VIEW_CONTROLLER", "No root view controller foundh",error)
-            return
-        }
-        if let imageURL = URL(string: inputPath) as? URL ,let outputURL = URL(string: outputPath) as? URL {
-            let configuration = TruvideoSdkImageEditorPreset(imageURL: imageURL, outputURL: outputURL)
-            
-            rootViewController.presentTruvideoSdkImageEditorView(preset: configuration, onComplete: { result in
-                if let editedImageUrl: URL = result.editedImageURL {
-                    resolve(editedImageUrl.absoluteString)
-                } else{
-                    let error = NSError(domain:"com.TruvideoImageSDk.ImageSDK", code: 500, userInfo: [NSLocalizedDescriptionKey: "There is no result URL"])
-                    reject("NO_URL_Found", "There is no result URL", error)
-                }
-            })
-        } else{
-            let error = NSError(domain:"com.TruvideoImageSDk.ImageSDK", code: 500, userInfo: [NSLocalizedDescriptionKey: "Failed to get directory path"])
-            reject("NO_PATH_Found", "Failed to get directory path", error)
+    @objc public func launchImageEdit(inputPath: String,outputPath: String,resolve: @escaping RCTPromiseResolveBlock, reject: @escaping RCTPromiseRejectBlock) {
+        DispatchQueue.main.async{
+            guard let rootViewController = UIApplication.shared.keyWindow?.rootViewController else {
+                print("E_NO_ROOT_VIEW_CONTROLLER", "No root view controller found")
+                let error = NSError(domain: "com.TruvideoImageSDk.ImageSDK", code: 500, userInfo: [NSLocalizedDescriptionKey: "No root view controller found"])
+                reject("E_NO_ROOT_VIEW_CONTROLLER", "No root view controller foundh",error)
+                return
+            }
+            if let imageURL = URL(string: inputPath) as? URL ,let outputURL = URL(string: "file://\(outputPath)") as? URL {
+                let configuration = TruvideoSdkImageEditorPreset(imageURL: imageURL, outputURL: outputURL)
+                
+                rootViewController.presentTruvideoSdkImageEditorView(preset: configuration, onComplete: { result in
+                    if let editedImageUrl: URL = result.editedImageURL {
+                        resolve(editedImageUrl.absoluteString)
+                    } else{
+                        let error = NSError(domain:"com.TruvideoImageSDk.ImageSDK", code: 500, userInfo: [NSLocalizedDescriptionKey: "There is no result URL"])
+                        reject("NO_URL_Found", "There is no result URL", error)
+                    }
+                })
+            } else{
+                let error = NSError(domain:"com.TruvideoImageSDk.ImageSDK", code: 500, userInfo: [NSLocalizedDescriptionKey: "Failed to get directory path"])
+                reject("NO_PATH_Found", "Failed to get directory path", error)
+            }
         }
     }
   
