@@ -22,12 +22,12 @@ class TruvideoReactTurboImageSdkModule(reactContext: ReactApplicationContext) :
 
   override fun launchImageEdit(inputPath: String?, outputPath: String?, promise: Promise?) {
     mainPromise = promise
-    currentActivity!!.startActivity(Intent(reactApplicationContext, ImageActivity::class.java).putExtra("inputPath",inputPath).putExtra("outputPath",outputPath))
+    currentActivity!!.startActivity(Intent(currentActivity, ImageActivity::class.java).putExtra("inputPath",inputPath).putExtra("outputPath",outputPath))
   }
 
   override fun getFilePath(fileName: String?, promise: Promise?) {
     // get result path with dynamic name
-    val basePath  = reactApplicationContext.filesDir
+    val basePath  = currentActivity!!.filesDir
     promise?.resolve( File("$basePath/camera/$fileName").path)
   }
 
