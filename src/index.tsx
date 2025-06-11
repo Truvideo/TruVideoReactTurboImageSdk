@@ -10,6 +10,7 @@ export function launchImageEdit(
 export function getFilePath(fileName: string): Promise<string> {
   return TruvideoReactTurboImageSdk.getFilePath(fileName);
 }
+
 export function getInfo(imagePath: string): Promise<string> {
   return TruvideoReactTurboImageSdk.getInfo(imagePath);
 }
