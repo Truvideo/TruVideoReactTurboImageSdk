@@ -18,7 +18,7 @@ class ImageActivity :  ComponentActivity(){
     val outputPath = intent.getStringExtra("outputPath")
 
     launcher = registerForActivityResult(TruvideoSdkImageEditContract()){ resultPath: String? ->
-      mainPromise!!.resolve(resultPath)
+      mainPromise!!.resolve(resultPath ?: "")
       finish()
     }
     launcher!!.launch(TruvideoSdkImageEditParams(inputPath!!,outputPath!!))

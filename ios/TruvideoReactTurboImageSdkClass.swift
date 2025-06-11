@@ -56,5 +56,9 @@ import React
             }
         }
     }
+  @objc public func getInfo(inputPath: String,resolve: @escaping RCTPromiseResolveBlock, reject: @escaping RCTPromiseRejectBlock){
+    
+  }
+  
   
 }
