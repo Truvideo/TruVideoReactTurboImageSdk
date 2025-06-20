@@ -39,7 +39,7 @@ import React
                 reject("E_NO_ROOT_VIEW_CONTROLLER", "No root view controller foundh",error)
                 return
             }
-            if let imageURL = URL(string: inputPath) as? URL ,let outputURL = URL(string: "file://\(outputPath)") as? URL {
+            if let imageURL = URL(string: "file://\(inputPath)") as? URL ,let outputURL = URL(string: "file://\(outputPath)") as? URL {
                 let configuration = TruvideoSdkImageEditorPreset(imageURL: imageURL, outputURL: outputURL)
                 
                 rootViewController.presentTruvideoSdkImageEditorView(preset: configuration, onComplete: { result in
