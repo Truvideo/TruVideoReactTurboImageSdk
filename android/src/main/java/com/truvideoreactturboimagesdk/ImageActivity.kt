@@ -21,6 +21,11 @@ class ImageActivity :  ComponentActivity(){
       mainPromise!!.resolve(resultPath ?: "")
       finish()
     }
-    launcher!!.launch(TruvideoSdkImageEditParams(inputPath!!,outputPath!!))
+    try {
+      launcher!!.launch(TruvideoSdkImageEditParams(inputPath!!,outputPath!!))
+    }catch (e : Exception){
+      mainPromise!!.reject("Exception",e.message)
+      finish()
+    }
   }
 }
