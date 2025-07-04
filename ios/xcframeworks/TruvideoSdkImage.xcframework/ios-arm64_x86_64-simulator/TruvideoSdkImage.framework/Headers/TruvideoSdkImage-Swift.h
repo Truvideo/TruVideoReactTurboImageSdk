@@ -277,8 +277,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import ObjectiveC;
-@import UIKit;
 #endif
 
 #endif
@@ -299,75 +297,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-typedef SWIFT_ENUM(NSInteger, NSTruvideoSdkImageFileDescriptor, open) {
-  NSTruvideoSdkImageFileDescriptorCache = 0,
-  NSTruvideoSdkImageFileDescriptorFiles = 1,
-  NSTruvideoSdkImageFileDescriptorCustom = 2,
-};
-
-@class NSURL;
-@class NSString;
-@class NSValue;
-@class UIImage;
-
-/// A preset configuration for initializing the Truvideo SDK Image Editor.
-/// <code>TruvideoSdkImageEditorPreset</code> provides options for loading an image, defining the output format,
-/// specifying an output URL, and optionally resizing the image.
-SWIFT_CLASS("_TtC16TruvideoSdkImage28TruvideoSdkImageEditorPreset")
-@interface TruvideoSdkImageEditorPreset : NSObject
-/// Creates a <code>TruvideoSdkImageEditorPreset</code> instance using an image file from a URL.
-/// \param imageURL The file URL of the image to be edited.
-///
-/// \param outputURL The file URL where the edited image should be saved (optional).
-///
-/// \param newSize The desired dimensions for the edited image wrapped in <code>NSValue</code> (optional).
-///
-///
-/// returns:
-/// A new <code>TruvideoSdkImageEditorPreset</code> instance.
-+ (TruvideoSdkImageEditorPreset * _Nonnull)instantiateWith:(NSURL * _Nonnull)imageURL fileName:(NSString * _Nonnull)fileName outputDescriptor:(enum NSTruvideoSdkImageFileDescriptor)outputDescriptor newSize:(NSValue * _Nullable)newSize SWIFT_WARN_UNUSED_RESULT;
-/// Creates a <code>TruvideoSdkImageEditorPreset</code> instance using a <code>UIImage</code>.
-/// \param image The <code>UIImage</code> object to be edited.
-///
-/// \param outputURL The file URL where the edited image should be saved (optional).
-///
-/// \param newSize The desired dimensions for the edited image wrapped in <code>NSValue</code> (optional).
-///
-///
-/// returns:
-/// A new <code>TruvideoSdkImageEditorPreset</code> instance.
-+ (TruvideoSdkImageEditorPreset * _Nonnull)instantiateWithImage:(UIImage * _Nonnull)image fileName:(NSString * _Nonnull)fileName outputDescriptor:(enum NSTruvideoSdkImageFileDescriptor)outputDescriptor newSize:(NSValue * _Nullable)newSize SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-/// The result of an image editing operation in the Truvideo SDK Image Editor.
-SWIFT_CLASS("_TtC16TruvideoSdkImage28TruvideoSdkImageEditorResult")
-@interface TruvideoSdkImageEditorResult : NSObject
-/// The edited image as a <code>UIImage</code>.
-@property (nonatomic, readonly, strong) UIImage * _Nullable editedImage;
-/// The file URL where the edited image has been saved.
-@property (nonatomic, readonly, copy) NSURL * _Nullable editedImageURL;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 
 
-
-
-@interface UIViewController (SWIFT_EXTENSION(TruvideoSdkImage))
-/// Presents the Truvideo SDK Image Editor view over the full screen.
-/// This method displays the <code>TruvideoSdkImageEditorViewController</code> with the given preset configuration.
-/// Once the editing is complete, the provided callback is invoked with the edited result.
-/// \param preset A <code>TruvideoSdkImageEditorPreset</code> defining the initial configuration of the editor.
-///
-/// \param onComplete A closure that is called with a <code>TruvideoSdkImageEditorResult</code> after the editing is completed.
-///
-- (void)presentTruvideoSdkImageEditorViewWithPreset:(TruvideoSdkImageEditorPreset * _Nonnull)preset onComplete:(void (^ _Nonnull)(TruvideoSdkImageEditorResult * _Nonnull))onComplete;
-@end
 
 #endif
 #if __has_attribute(external_source_symbol)
@@ -656,8 +589,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import ObjectiveC;
-@import UIKit;
 #endif
 
 #endif
@@ -678,75 +609,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-typedef SWIFT_ENUM(NSInteger, NSTruvideoSdkImageFileDescriptor, open) {
-  NSTruvideoSdkImageFileDescriptorCache = 0,
-  NSTruvideoSdkImageFileDescriptorFiles = 1,
-  NSTruvideoSdkImageFileDescriptorCustom = 2,
-};
-
-@class NSURL;
-@class NSString;
-@class NSValue;
-@class UIImage;
-
-/// A preset configuration for initializing the Truvideo SDK Image Editor.
-/// <code>TruvideoSdkImageEditorPreset</code> provides options for loading an image, defining the output format,
-/// specifying an output URL, and optionally resizing the image.
-SWIFT_CLASS("_TtC16TruvideoSdkImage28TruvideoSdkImageEditorPreset")
-@interface TruvideoSdkImageEditorPreset : NSObject
-/// Creates a <code>TruvideoSdkImageEditorPreset</code> instance using an image file from a URL.
-/// \param imageURL The file URL of the image to be edited.
-///
-/// \param outputURL The file URL where the edited image should be saved (optional).
-///
-/// \param newSize The desired dimensions for the edited image wrapped in <code>NSValue</code> (optional).
-///
-///
-/// returns:
-/// A new <code>TruvideoSdkImageEditorPreset</code> instance.
-+ (TruvideoSdkImageEditorPreset * _Nonnull)instantiateWith:(NSURL * _Nonnull)imageURL fileName:(NSString * _Nonnull)fileName outputDescriptor:(enum NSTruvideoSdkImageFileDescriptor)outputDescriptor newSize:(NSValue * _Nullable)newSize SWIFT_WARN_UNUSED_RESULT;
-/// Creates a <code>TruvideoSdkImageEditorPreset</code> instance using a <code>UIImage</code>.
-/// \param image The <code>UIImage</code> object to be edited.
-///
-/// \param outputURL The file URL where the edited image should be saved (optional).
-///
-/// \param newSize The desired dimensions for the edited image wrapped in <code>NSValue</code> (optional).
-///
-///
-/// returns:
-/// A new <code>TruvideoSdkImageEditorPreset</code> instance.
-+ (TruvideoSdkImageEditorPreset * _Nonnull)instantiateWithImage:(UIImage * _Nonnull)image fileName:(NSString * _Nonnull)fileName outputDescriptor:(enum NSTruvideoSdkImageFileDescriptor)outputDescriptor newSize:(NSValue * _Nullable)newSize SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-/// The result of an image editing operation in the Truvideo SDK Image Editor.
-SWIFT_CLASS("_TtC16TruvideoSdkImage28TruvideoSdkImageEditorResult")
-@interface TruvideoSdkImageEditorResult : NSObject
-/// The edited image as a <code>UIImage</code>.
-@property (nonatomic, readonly, strong) UIImage * _Nullable editedImage;
-/// The file URL where the edited image has been saved.
-@property (nonatomic, readonly, copy) NSURL * _Nullable editedImageURL;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
 
 
 
 
-
-
-@interface UIViewController (SWIFT_EXTENSION(TruvideoSdkImage))
-/// Presents the Truvideo SDK Image Editor view over the full screen.
-/// This method displays the <code>TruvideoSdkImageEditorViewController</code> with the given preset configuration.
-/// Once the editing is complete, the provided callback is invoked with the edited result.
-/// \param preset A <code>TruvideoSdkImageEditorPreset</code> defining the initial configuration of the editor.
-///
-/// \param onComplete A closure that is called with a <code>TruvideoSdkImageEditorResult</code> after the editing is completed.
-///
-- (void)presentTruvideoSdkImageEditorViewWithPreset:(TruvideoSdkImageEditorPreset * _Nonnull)preset onComplete:(void (^ _Nonnull)(TruvideoSdkImageEditorResult * _Nonnull))onComplete;
-@end
 
 #endif
 #if __has_attribute(external_source_symbol)

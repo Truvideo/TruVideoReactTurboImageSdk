@@ -25,6 +25,9 @@ extension SwiftUI.View {
 
 
 
+extension UIKit.UIDeviceOrientation {
+  public static func currentAppOrientation() -> UIKit.UIDeviceOrientation
+}
 
 
 public protocol TruvideoSdkImageInterface {
@@ -43,44 +46,20 @@ public protocol TruvideoSdkImageAppDelegate : UIKit.UIApplicationDelegate {
 
 
 
-@objc extension UIKit.UIViewController {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func presentTruvideoSdkImageEditorView(preset: TruvideoSdkImage.TruvideoSdkImageEditorPreset, onComplete: @escaping (TruvideoSdkImage.TruvideoSdkImageEditorResult) -> Swift.Void)
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public func presentTruvideoSdkImageEditorView(preset: TruvideoSdkImage.TruvideoSdkImageEditorPreset, onComplete: @escaping (TruvideoSdkImage.TruvideoSdkImageEditorResult) -> Swift.Void)
 }
-public enum TruvideoSdkImageFileDescriptor : Swift.Hashable {
-  case cache(fileName: Swift.String)
-  case files(fileName: Swift.String)
-  case custom(rawPath: Swift.String)
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: TruvideoSdkImage.TruvideoSdkImageFileDescriptor, b: TruvideoSdkImage.TruvideoSdkImageFileDescriptor) -> Swift.Bool
-  public var hashValue: Swift.Int {
-    get
-  }
-}
-@objc public enum NSTruvideoSdkImageFileDescriptor : Swift.Int {
-  case cache
-  case files
-  case custom
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public class TruvideoSdkImageEditorPreset : ObjectiveC.NSObject {
-  public init(imageURL: Foundation.URL, outputFormat: TruvideoSdkImage.TruvideoSdkImageOutputFormat = .jpg(compressionQuality: 100), output: TruvideoSdkImage.TruvideoSdkImageFileDescriptor, newSize: CoreFoundation.CGSize? = nil)
-  public init(image: UIKit.UIImage, outputFormat: TruvideoSdkImage.TruvideoSdkImageOutputFormat = .jpg(compressionQuality: 100), output: TruvideoSdkImage.TruvideoSdkImageFileDescriptor, newSize: CoreFoundation.CGSize? = nil)
-  @objc public static func instantiate(with imageURL: Foundation.URL, fileName: Swift.String, outputDescriptor: TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor, newSize: Foundation.NSValue?) -> TruvideoSdkImage.TruvideoSdkImageEditorPreset
-  @objc public static func instantiate(image: UIKit.UIImage, fileName: Swift.String, outputDescriptor: TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor, newSize: Foundation.NSValue?) -> TruvideoSdkImage.TruvideoSdkImageEditorPreset
-  @objc deinit
+public struct TruvideoSdkImageEditorPreset {
+  public init(imageURL: Foundation.URL, outputFormat: TruvideoSdkImage.TruvideoSdkImageOutputFormat = .jpg(compressionQuality: 100), outputURL: Foundation.URL? = nil, newSize: CoreFoundation.CGSize? = nil)
+  public init(image: UIKit.UIImage, outputFormat: TruvideoSdkImage.TruvideoSdkImageOutputFormat = .jpg(compressionQuality: 100), outputURL: Foundation.URL? = nil, newSize: CoreFoundation.CGSize? = nil)
 }
 public enum TruvideoSdkImageOutputFormat {
   case png
   case jpg(compressionQuality: Swift.Int)
 }
-@_hasMissingDesignatedInitializers @objc public class TruvideoSdkImageEditorResult : ObjectiveC.NSObject {
-  @objc final public let editedImage: UIKit.UIImage?
-  @objc final public let editedImageURL: Foundation.URL?
-  @objc deinit
+public struct TruvideoSdkImageEditorResult {
+  public let editedImage: UIKit.UIImage?
+  public let editedImageURL: Foundation.URL?
 }
 public enum TruvideoSdkImageError : Swift.Error, Swift.Equatable {
   case userNotAuthenticated
@@ -102,6 +81,7 @@ public enum TruvideoSdkImageError : Swift.Error, Swift.Equatable {
 public protocol TruvideoOrientationInterface {
   var appOrientationPublisher: Combine.AnyPublisher<UIKit.UIDeviceOrientation, Swift.Never> { get }
   var isTrackingAppOrientationChanges: Swift.Bool { get }
+  var truvideoOrientationMask: UIKit.UIInterfaceOrientationMask { get }
   func lockToTruvideoOrientation()
   func unlockAppOrientation()
   func configureTruvideoSdkAppDelegate(_ appDelegate: any TruvideoSdkImage.TruvideoSdkImageAppDelegate)
@@ -109,7 +89,4 @@ public protocol TruvideoOrientationInterface {
 
 
 
-extension TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor : Swift.Equatable {}
-extension TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor : Swift.Hashable {}
-extension TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor : Swift.RawRepresentable {}
 extension TruvideoSdkImage.TruvideoSdkImageError : Swift.Hashable {}
