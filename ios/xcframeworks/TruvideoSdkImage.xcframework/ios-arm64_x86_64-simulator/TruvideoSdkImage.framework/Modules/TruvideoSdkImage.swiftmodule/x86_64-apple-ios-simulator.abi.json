@@ -1,0 +1,4487 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Metal",
+        "printedName": "Metal",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TruvideoSdkImageInterface",
+        "printedName": "TruvideoSdkImageInterface",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configureTruvideoSdkAppDelegate",
+            "printedName": "configureTruvideoSdkAppDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageAppDelegate",
+                "printedName": "any TruvideoSdkImage.TruvideoSdkImageAppDelegate",
+                "usr": "s:16TruvideoSdkImage0abC11AppDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TruvideoSdkImage0abC9InterfaceP09configureaB11AppDelegateyyAA0abcfG0_pF",
+            "mangledName": "$s16TruvideoSdkImage0abC9InterfaceP09configureaB11AppDelegateyyAA0abcfG0_pF",
+            "moduleName": "TruvideoSdkImage",
+            "genericSig": "<τ_0_0 where τ_0_0 : TruvideoSdkImage.TruvideoSdkImageInterface>",
+            "sugared_genericSig": "<Self where Self : TruvideoSdkImage.TruvideoSdkImageInterface>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16TruvideoSdkImage0abC9InterfaceP",
+        "mangledName": "$s16TruvideoSdkImage0abC9InterfaceP",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "TruvideoSdkImage",
+        "printedName": "TruvideoSdkImage",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "TruvideoSdkImageInterface",
+            "printedName": "any TruvideoSdkImage.TruvideoSdkImageInterface",
+            "usr": "s:16TruvideoSdkImage0abC9InterfaceP"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:16TruvideoSdkImageA2A0abC9Interface_pvp",
+        "mangledName": "$s16TruvideoSdkImageA2A0abC9Interface_pvp",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageInterface",
+                "printedName": "any TruvideoSdkImage.TruvideoSdkImageInterface",
+                "usr": "s:16TruvideoSdkImage0abC9InterfaceP"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:16TruvideoSdkImageA2A0abC9Interface_pvg",
+            "mangledName": "$s16TruvideoSdkImageA2A0abC9Interface_pvg",
+            "moduleName": "TruvideoSdkImage",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TruvideoSdkImageAppDelegate",
+        "printedName": "TruvideoSdkImageAppDelegate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "orientationLock",
+            "printedName": "orientationLock",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TruvideoSdkImage0abC11AppDelegateP15orientationLockSo26UIInterfaceOrientationMaskVvp",
+            "mangledName": "$s16TruvideoSdkImage0abC11AppDelegateP15orientationLockSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "TruvideoSdkImage",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TruvideoSdkImage0abC11AppDelegateP15orientationLockSo26UIInterfaceOrientationMaskVvg",
+                "mangledName": "$s16TruvideoSdkImage0abC11AppDelegateP15orientationLockSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "TruvideoSdkImage",
+                "genericSig": "<τ_0_0 where τ_0_0 : TruvideoSdkImage.TruvideoSdkImageAppDelegate>",
+                "sugared_genericSig": "<Self where Self : TruvideoSdkImage.TruvideoSdkImageAppDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TruvideoSdkImage0abC11AppDelegateP15orientationLockSo26UIInterfaceOrientationMaskVvs",
+                "mangledName": "$s16TruvideoSdkImage0abC11AppDelegateP15orientationLockSo26UIInterfaceOrientationMaskVvs",
+                "moduleName": "TruvideoSdkImage",
+                "genericSig": "<τ_0_0 where τ_0_0 : TruvideoSdkImage.TruvideoSdkImageAppDelegate>",
+                "sugared_genericSig": "<Self where Self : TruvideoSdkImage.TruvideoSdkImageAppDelegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TruvideoSdkImage0abC11AppDelegateP15orientationLockSo26UIInterfaceOrientationMaskVvM",
+                "mangledName": "$s16TruvideoSdkImage0abC11AppDelegateP15orientationLockSo26UIInterfaceOrientationMaskVvM",
+                "moduleName": "TruvideoSdkImage",
+                "genericSig": "<τ_0_0 where τ_0_0 : TruvideoSdkImage.TruvideoSdkImageAppDelegate>",
+                "sugared_genericSig": "<Self where Self : TruvideoSdkImage.TruvideoSdkImageAppDelegate>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:supportedInterfaceOrientationsFor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TruvideoSdkImage0abC11AppDelegateP11application_33supportedInterfaceOrientationsForSo26UIInterfaceOrientationMaskVSo13UIApplicationC_So8UIWindowCSgtF",
+            "mangledName": "$s16TruvideoSdkImage0abC11AppDelegateP11application_33supportedInterfaceOrientationsForSo26UIInterfaceOrientationMaskVSo13UIApplicationC_So8UIWindowCSgtF",
+            "moduleName": "TruvideoSdkImage",
+            "genericSig": "<τ_0_0 where τ_0_0 : TruvideoSdkImage.TruvideoSdkImageAppDelegate>",
+            "sugared_genericSig": "<Self where Self : TruvideoSdkImage.TruvideoSdkImageAppDelegate>",
+            "protocolReq": true,
+            "overriding": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16TruvideoSdkImage0abC11AppDelegateP",
+        "mangledName": "$s16TruvideoSdkImage0abC11AppDelegateP",
+        "moduleName": "TruvideoSdkImage",
+        "genericSig": "<τ_0_0 : UIKit.UIApplicationDelegate>",
+        "sugared_genericSig": "<Self : UIKit.UIApplicationDelegate>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TruvideoSdkImageFileDescriptor",
+        "printedName": "TruvideoSdkImageFileDescriptor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cache",
+            "printedName": "cache",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageFileDescriptor.Type) -> (Swift.String) -> TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageFileDescriptor",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                        "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(fileName: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageFileDescriptor",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                        "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO5cacheyACSS_tcACmF",
+            "mangledName": "$s16TruvideoSdkImage0abC14FileDescriptorO5cacheyACSS_tcACmF",
+            "moduleName": "TruvideoSdkImage"
+          },
+          {
+            "kind": "Var",
+            "name": "files",
+            "printedName": "files",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageFileDescriptor.Type) -> (Swift.String) -> TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageFileDescriptor",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                        "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(fileName: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageFileDescriptor",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                        "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO5filesyACSS_tcACmF",
+            "mangledName": "$s16TruvideoSdkImage0abC14FileDescriptorO5filesyACSS_tcACmF",
+            "moduleName": "TruvideoSdkImage"
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageFileDescriptor.Type) -> (Swift.String) -> TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageFileDescriptor",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                        "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(rawPath: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageFileDescriptor",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                        "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO6customyACSS_tcACmF",
+            "mangledName": "$s16TruvideoSdkImage0abC14FileDescriptorO6customyACSS_tcACmF",
+            "moduleName": "TruvideoSdkImage"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO9hashValueSivp",
+            "mangledName": "$s16TruvideoSdkImage0abC14FileDescriptorO9hashValueSivp",
+            "moduleName": "TruvideoSdkImage",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO9hashValueSivg",
+                "mangledName": "$s16TruvideoSdkImage0abC14FileDescriptorO9hashValueSivg",
+                "moduleName": "TruvideoSdkImage",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16TruvideoSdkImage0abC14FileDescriptorO4hash4intoys6HasherVz_tF",
+            "moduleName": "TruvideoSdkImage",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageFileDescriptor",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageFileDescriptor",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16TruvideoSdkImage0abC14FileDescriptorO2eeoiySbAC_ACtFZ",
+            "moduleName": "TruvideoSdkImage",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO",
+        "mangledName": "$s16TruvideoSdkImage0abC14FileDescriptorO",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSTruvideoSdkImageFileDescriptor",
+        "printedName": "NSTruvideoSdkImageFileDescriptor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cache",
+            "printedName": "cache",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor.Type) -> TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSTruvideoSdkImageFileDescriptor",
+                    "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor",
+                    "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSTruvideoSdkImageFileDescriptor",
+                        "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor",
+                        "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor@NSTruvideoSdkImageFileDescriptorCache",
+            "mangledName": "$s16TruvideoSdkImage010NSTruvideobC14FileDescriptorO5cacheyA2CmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "files",
+            "printedName": "files",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor.Type) -> TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSTruvideoSdkImageFileDescriptor",
+                    "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor",
+                    "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSTruvideoSdkImageFileDescriptor",
+                        "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor",
+                        "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor@NSTruvideoSdkImageFileDescriptorFiles",
+            "mangledName": "$s16TruvideoSdkImage010NSTruvideobC14FileDescriptorO5filesyA2CmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor.Type) -> TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSTruvideoSdkImageFileDescriptor",
+                    "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor",
+                    "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSTruvideoSdkImageFileDescriptor",
+                        "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor",
+                        "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor@NSTruvideoSdkImageFileDescriptorCustom",
+            "mangledName": "$s16TruvideoSdkImage010NSTruvideobC14FileDescriptorO6customyA2CmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSTruvideoSdkImageFileDescriptor",
+                    "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor",
+                    "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16TruvideoSdkImage010NSTruvideobC14FileDescriptorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s16TruvideoSdkImage010NSTruvideobC14FileDescriptorO8rawValueACSgSi_tcfc",
+            "moduleName": "TruvideoSdkImage",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TruvideoSdkImage010NSTruvideobC14FileDescriptorO8rawValueSivp",
+            "mangledName": "$s16TruvideoSdkImage010NSTruvideobC14FileDescriptorO8rawValueSivp",
+            "moduleName": "TruvideoSdkImage",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TruvideoSdkImage010NSTruvideobC14FileDescriptorO8rawValueSivg",
+                "mangledName": "$s16TruvideoSdkImage010NSTruvideobC14FileDescriptorO8rawValueSivg",
+                "moduleName": "TruvideoSdkImage",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor",
+        "mangledName": "$s16TruvideoSdkImage010NSTruvideobC14FileDescriptorO",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TruvideoSdkImageEditorPreset",
+        "printedName": "TruvideoSdkImageEditorPreset",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(imageURL:outputFormat:output:newSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageEditorPreset",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageEditorPreset",
+                "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorPreset"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageOutputFormat",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageOutputFormat",
+                "hasDefaultArg": true,
+                "usr": "s:16TruvideoSdkImage0abC12OutputFormatO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageFileDescriptor",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGSize?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16TruvideoSdkImage0abC12EditorPresetC8imageURL12outputFormat0H07newSizeAC10Foundation0G0V_AA0abc6OutputI0OAA0abC14FileDescriptorOSo6CGSizeVSgtcfc",
+            "mangledName": "$s16TruvideoSdkImage0abC12EditorPresetC8imageURL12outputFormat0H07newSizeAC10Foundation0G0V_AA0abc6OutputI0OAA0abC14FileDescriptorOSo6CGSizeVSgtcfc",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:outputFormat:output:newSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageEditorPreset",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageEditorPreset",
+                "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorPreset"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageOutputFormat",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageOutputFormat",
+                "hasDefaultArg": true,
+                "usr": "s:16TruvideoSdkImage0abC12OutputFormatO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageFileDescriptor",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageFileDescriptor",
+                "usr": "s:16TruvideoSdkImage0abC14FileDescriptorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGSize?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16TruvideoSdkImage0abC12EditorPresetC5image12outputFormat0G07newSizeACSo7UIImageC_AA0abc6OutputH0OAA0abC14FileDescriptorOSo6CGSizeVSgtcfc",
+            "mangledName": "$s16TruvideoSdkImage0abC12EditorPresetC5image12outputFormat0G07newSizeACSo7UIImageC_AA0abc6OutputH0OAA0abC14FileDescriptorOSo6CGSizeVSgtcfc",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "instantiate",
+            "printedName": "instantiate(with:fileName:outputDescriptor:newSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageEditorPreset",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageEditorPreset",
+                "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorPreset"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSTruvideoSdkImageFileDescriptor",
+                "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor",
+                "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSValue",
+                    "printedName": "Foundation.NSValue",
+                    "usr": "c:objc(cs)NSValue"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorPreset(cm)instantiateWith:fileName:outputDescriptor:newSize:",
+            "mangledName": "$s16TruvideoSdkImage0abC12EditorPresetC11instantiate4with8fileName16outputDescriptor7newSizeAC10Foundation3URLV_SSAA010NSTruvideobc4FileK0OSo7NSValueCSgtFZ",
+            "moduleName": "TruvideoSdkImage",
+            "static": true,
+            "objc_name": "instantiateWith:fileName:outputDescriptor:newSize:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "instantiate",
+            "printedName": "instantiate(image:fileName:outputDescriptor:newSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageEditorPreset",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageEditorPreset",
+                "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorPreset"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSTruvideoSdkImageFileDescriptor",
+                "printedName": "TruvideoSdkImage.NSTruvideoSdkImageFileDescriptor",
+                "usr": "c:@M@TruvideoSdkImage@E@NSTruvideoSdkImageFileDescriptor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSValue",
+                    "printedName": "Foundation.NSValue",
+                    "usr": "c:objc(cs)NSValue"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorPreset(cm)instantiateWithImage:fileName:outputDescriptor:newSize:",
+            "mangledName": "$s16TruvideoSdkImage0abC12EditorPresetC11instantiate5image8fileName16outputDescriptor7newSizeACSo7UIImageC_SSAA010NSTruvideobc4FileK0OSo7NSValueCSgtFZ",
+            "moduleName": "TruvideoSdkImage",
+            "static": true,
+            "objc_name": "instantiateWithImage:fileName:outputDescriptor:newSize:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageEditorPreset",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageEditorPreset",
+                "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorPreset"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorPreset(im)init",
+            "mangledName": "$s16TruvideoSdkImage0abC12EditorPresetCACycfc",
+            "moduleName": "TruvideoSdkImage",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorPreset",
+        "mangledName": "$s16TruvideoSdkImage0abC12EditorPresetC",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TruvideoSdkImageOutputFormat",
+        "printedName": "TruvideoSdkImageOutputFormat",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "png",
+            "printedName": "png",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageOutputFormat.Type) -> TruvideoSdkImage.TruvideoSdkImageOutputFormat",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TruvideoSdkImageOutputFormat",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageOutputFormat",
+                    "usr": "s:16TruvideoSdkImage0abC12OutputFormatO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageOutputFormat.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageOutputFormat",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageOutputFormat",
+                        "usr": "s:16TruvideoSdkImage0abC12OutputFormatO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC12OutputFormatO3pngyA2CmF",
+            "mangledName": "$s16TruvideoSdkImage0abC12OutputFormatO3pngyA2CmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jpg",
+            "printedName": "jpg",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageOutputFormat.Type) -> (Swift.Int) -> TruvideoSdkImage.TruvideoSdkImageOutputFormat",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> TruvideoSdkImage.TruvideoSdkImageOutputFormat",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageOutputFormat",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageOutputFormat",
+                        "usr": "s:16TruvideoSdkImage0abC12OutputFormatO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(compressionQuality: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageOutputFormat.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageOutputFormat",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageOutputFormat",
+                        "usr": "s:16TruvideoSdkImage0abC12OutputFormatO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC12OutputFormatO3jpgyACSi_tcACmF",
+            "mangledName": "$s16TruvideoSdkImage0abC12OutputFormatO3jpgyACSi_tcACmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16TruvideoSdkImage0abC12OutputFormatO",
+        "mangledName": "$s16TruvideoSdkImage0abC12OutputFormatO",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TruvideoSdkImageEditorResult",
+        "printedName": "TruvideoSdkImageEditorResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "editedImage",
+            "printedName": "editedImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorResult(py)editedImage",
+            "mangledName": "$s16TruvideoSdkImage0abC12EditorResultC06editedC0So7UIImageCSgvp",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorResult(im)editedImage",
+                "mangledName": "$s16TruvideoSdkImage0abC12EditorResultC06editedC0So7UIImageCSgvg",
+                "moduleName": "TruvideoSdkImage",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "editedImageURL",
+            "printedName": "editedImageURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorResult(py)editedImageURL",
+            "mangledName": "$s16TruvideoSdkImage0abC12EditorResultC06editedC3URL10Foundation0G0VSgvp",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorResult(im)editedImageURL",
+                "mangledName": "$s16TruvideoSdkImage0abC12EditorResultC06editedC3URL10Foundation0G0VSgvg",
+                "moduleName": "TruvideoSdkImage",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageEditorResult",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageEditorResult",
+                "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorResult"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorResult(im)init",
+            "mangledName": "$s16TruvideoSdkImage0abC12EditorResultCACycfc",
+            "moduleName": "TruvideoSdkImage",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorResult",
+        "mangledName": "$s16TruvideoSdkImage0abC12EditorResultC",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TruvideoSdkImageError",
+        "printedName": "TruvideoSdkImageError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userNotAuthenticated",
+            "printedName": "userNotAuthenticated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageError.Type) -> TruvideoSdkImage.TruvideoSdkImageError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TruvideoSdkImageError",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                    "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageError",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                        "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC5ErrorO20userNotAuthenticatedyA2CmF",
+            "mangledName": "$s16TruvideoSdkImage0abC5ErrorO20userNotAuthenticatedyA2CmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidFile",
+            "printedName": "invalidFile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageError.Type) -> TruvideoSdkImage.TruvideoSdkImageError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TruvideoSdkImageError",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                    "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageError",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                        "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC5ErrorO11invalidFileyA2CmF",
+            "mangledName": "$s16TruvideoSdkImage0abC5ErrorO11invalidFileyA2CmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notFoundImage",
+            "printedName": "notFoundImage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageError.Type) -> TruvideoSdkImage.TruvideoSdkImageError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TruvideoSdkImageError",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                    "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageError",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                        "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC5ErrorO08notFoundC0yA2CmF",
+            "mangledName": "$s16TruvideoSdkImage0abC5ErrorO08notFoundC0yA2CmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidCropRange",
+            "printedName": "invalidCropRange",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageError.Type) -> TruvideoSdkImage.TruvideoSdkImageError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TruvideoSdkImageError",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                    "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageError",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                        "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC5ErrorO16invalidCropRangeyA2CmF",
+            "mangledName": "$s16TruvideoSdkImage0abC5ErrorO16invalidCropRangeyA2CmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unableToCropImage",
+            "printedName": "unableToCropImage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageError.Type) -> TruvideoSdkImage.TruvideoSdkImageError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TruvideoSdkImageError",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                    "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageError",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                        "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC5ErrorO012unableToCropC0yA2CmF",
+            "mangledName": "$s16TruvideoSdkImage0abC5ErrorO012unableToCropC0yA2CmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unableToCompressImage",
+            "printedName": "unableToCompressImage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageError.Type) -> TruvideoSdkImage.TruvideoSdkImageError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TruvideoSdkImageError",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                    "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageError",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                        "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC5ErrorO016unableToCompressC0yA2CmF",
+            "mangledName": "$s16TruvideoSdkImage0abC5ErrorO016unableToCompressC0yA2CmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unableToResizeImage",
+            "printedName": "unableToResizeImage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageError.Type) -> TruvideoSdkImage.TruvideoSdkImageError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TruvideoSdkImageError",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                    "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageError",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                        "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC5ErrorO014unableToResizeC0yA2CmF",
+            "mangledName": "$s16TruvideoSdkImage0abC5ErrorO014unableToResizeC0yA2CmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unableToSaveCroppedImage",
+            "printedName": "unableToSaveCroppedImage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageError.Type) -> TruvideoSdkImage.TruvideoSdkImageError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TruvideoSdkImageError",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                    "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TruvideoSdkImageError",
+                        "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                        "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TruvideoSdkImage0abC5ErrorO019unableToSaveCroppedC0yA2CmF",
+            "mangledName": "$s16TruvideoSdkImage0abC5ErrorO019unableToSaveCroppedC0yA2CmF",
+            "moduleName": "TruvideoSdkImage",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TruvideoSdkImage0abC5ErrorO9hashValueSivp",
+            "mangledName": "$s16TruvideoSdkImage0abC5ErrorO9hashValueSivp",
+            "moduleName": "TruvideoSdkImage",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TruvideoSdkImage0abC5ErrorO9hashValueSivg",
+                "mangledName": "$s16TruvideoSdkImage0abC5ErrorO9hashValueSivg",
+                "moduleName": "TruvideoSdkImage",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TruvideoSdkImage0abC5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16TruvideoSdkImage0abC5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "TruvideoSdkImage",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageError",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageError",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageError",
+                "usr": "s:16TruvideoSdkImage0abC5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TruvideoSdkImage0abC5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16TruvideoSdkImage0abC5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "TruvideoSdkImage",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16TruvideoSdkImage0abC5ErrorO",
+        "mangledName": "$s16TruvideoSdkImage0abC5ErrorO",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TruvideoOrientationInterface",
+        "printedName": "TruvideoOrientationInterface",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appOrientationPublisher",
+            "printedName": "appOrientationPublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<UIKit.UIDeviceOrientation, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIDeviceOrientation",
+                    "printedName": "UIKit.UIDeviceOrientation",
+                    "usr": "c:@E@UIDeviceOrientation"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TruvideoSdkImage0A20OrientationInterfaceP03appD9Publisher7Combine03AnyG0VySo08UIDeviceD0Vs5NeverOGvp",
+            "mangledName": "$s16TruvideoSdkImage0A20OrientationInterfaceP03appD9Publisher7Combine03AnyG0VySo08UIDeviceD0Vs5NeverOGvp",
+            "moduleName": "TruvideoSdkImage",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<UIKit.UIDeviceOrientation, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIDeviceOrientation",
+                        "printedName": "UIKit.UIDeviceOrientation",
+                        "usr": "c:@E@UIDeviceOrientation"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TruvideoSdkImage0A20OrientationInterfaceP03appD9Publisher7Combine03AnyG0VySo08UIDeviceD0Vs5NeverOGvg",
+                "mangledName": "$s16TruvideoSdkImage0A20OrientationInterfaceP03appD9Publisher7Combine03AnyG0VySo08UIDeviceD0Vs5NeverOGvg",
+                "moduleName": "TruvideoSdkImage",
+                "genericSig": "<τ_0_0 where τ_0_0 : TruvideoSdkImage.TruvideoOrientationInterface>",
+                "sugared_genericSig": "<Self where Self : TruvideoSdkImage.TruvideoOrientationInterface>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isTrackingAppOrientationChanges",
+            "printedName": "isTrackingAppOrientationChanges",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TruvideoSdkImage0A20OrientationInterfaceP013isTrackingAppD7ChangesSbvp",
+            "mangledName": "$s16TruvideoSdkImage0A20OrientationInterfaceP013isTrackingAppD7ChangesSbvp",
+            "moduleName": "TruvideoSdkImage",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TruvideoSdkImage0A20OrientationInterfaceP013isTrackingAppD7ChangesSbvg",
+                "mangledName": "$s16TruvideoSdkImage0A20OrientationInterfaceP013isTrackingAppD7ChangesSbvg",
+                "moduleName": "TruvideoSdkImage",
+                "genericSig": "<τ_0_0 where τ_0_0 : TruvideoSdkImage.TruvideoOrientationInterface>",
+                "sugared_genericSig": "<Self where Self : TruvideoSdkImage.TruvideoOrientationInterface>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "lockToTruvideoOrientation",
+            "printedName": "lockToTruvideoOrientation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TruvideoSdkImage0A20OrientationInterfaceP06lockToaD0yyF",
+            "mangledName": "$s16TruvideoSdkImage0A20OrientationInterfaceP06lockToaD0yyF",
+            "moduleName": "TruvideoSdkImage",
+            "genericSig": "<τ_0_0 where τ_0_0 : TruvideoSdkImage.TruvideoOrientationInterface>",
+            "sugared_genericSig": "<Self where Self : TruvideoSdkImage.TruvideoOrientationInterface>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unlockAppOrientation",
+            "printedName": "unlockAppOrientation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TruvideoSdkImage0A20OrientationInterfaceP09unlockAppD0yyF",
+            "mangledName": "$s16TruvideoSdkImage0A20OrientationInterfaceP09unlockAppD0yyF",
+            "moduleName": "TruvideoSdkImage",
+            "genericSig": "<τ_0_0 where τ_0_0 : TruvideoSdkImage.TruvideoOrientationInterface>",
+            "sugared_genericSig": "<Self where Self : TruvideoSdkImage.TruvideoOrientationInterface>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureTruvideoSdkAppDelegate",
+            "printedName": "configureTruvideoSdkAppDelegate(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageAppDelegate",
+                "printedName": "any TruvideoSdkImage.TruvideoSdkImageAppDelegate",
+                "usr": "s:16TruvideoSdkImage0abC11AppDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TruvideoSdkImage0A20OrientationInterfaceP09configureaB11AppDelegateyyAA0abcgH0_pF",
+            "mangledName": "$s16TruvideoSdkImage0A20OrientationInterfaceP09configureaB11AppDelegateyyAA0abcgH0_pF",
+            "moduleName": "TruvideoSdkImage",
+            "genericSig": "<τ_0_0 where τ_0_0 : TruvideoSdkImage.TruvideoOrientationInterface>",
+            "sugared_genericSig": "<Self where Self : TruvideoSdkImage.TruvideoOrientationInterface>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16TruvideoSdkImage0A20OrientationInterfaceP",
+        "mangledName": "$s16TruvideoSdkImage0A20OrientationInterfaceP",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "TruvideoSdkImage"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "presentTruvideoSdkImageEditorView",
+            "printedName": "presentTruvideoSdkImageEditorView(isPresented:preset:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageEditorPreset",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageEditorPreset",
+                "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorPreset"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageEditorResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TruvideoSdkImageEditorResult",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageEditorResult",
+                    "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP16TruvideoSdkImageE07presentdef6EditorC011isPresented6preset10completionQrAA7BindingVySbG_AD0defH6PresetCyAD0defH6ResultCctF",
+            "mangledName": "$s7SwiftUI4ViewP16TruvideoSdkImageE07presentdef6EditorC011isPresented6preset10completionQrAA7BindingVySbG_AD0defH6PresetCyAD0defH6ResultCctF",
+            "moduleName": "TruvideoSdkImage",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "presentTruvideoSdkImageEditorView",
+            "printedName": "presentTruvideoSdkImageEditorView(preset:onComplete:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TruvideoSdkImageEditorPreset",
+                "printedName": "TruvideoSdkImage.TruvideoSdkImageEditorPreset",
+                "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorPreset"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TruvideoSdkImage.TruvideoSdkImageEditorResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TruvideoSdkImageEditorResult",
+                    "printedName": "TruvideoSdkImage.TruvideoSdkImageEditorResult",
+                    "usr": "c:@M@TruvideoSdkImage@objc(cs)TruvideoSdkImageEditorResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TruvideoSdkImage@@objc(cs)UIViewController(im)presentTruvideoSdkImageEditorViewWithPreset:onComplete:",
+            "mangledName": "$sSo16UIViewControllerC16TruvideoSdkImageE07presentcdE10EditorView6preset10onCompleteyAC0cdeG6PresetC_yAC0cdeG6ResultCctF",
+            "moduleName": "TruvideoSdkImage",
+            "objc_name": "presentTruvideoSdkImageEditorViewWithPreset:onComplete:",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIViewController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperView.swift",
+      "kind": "StringLiteral",
+      "offset": 6522,
+      "length": 16,
+      "value": "\"Portrait Image\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperView.swift",
+      "kind": "StringLiteral",
+      "offset": 6609,
+      "length": 22,
+      "value": "\"Could not load image\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperView.swift",
+      "kind": "StringLiteral",
+      "offset": 6697,
+      "length": 23,
+      "value": "\"Return cropped image.\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperView.swift",
+      "kind": "StringLiteral",
+      "offset": 6740,
+      "length": 17,
+      "value": "\"Landscape Image\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6869,
+      "length": 3,
+      "value": "-90"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperView.swift",
+      "kind": "StringLiteral",
+      "offset": 6914,
+      "length": 22,
+      "value": "\"Could not load image\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperView.swift",
+      "kind": "StringLiteral",
+      "offset": 7005,
+      "length": 23,
+      "value": "\"Return cropped image.\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Error\/ErrorView.swift",
+      "kind": "StringLiteral",
+      "offset": 1254,
+      "length": 17,
+      "value": "\"Unauthenticated\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Error\/ErrorView.swift",
+      "kind": "StringLiteral",
+      "offset": 1323,
+      "length": 26,
+      "value": "\"Return - Unauthenticated\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Error\/ErrorView.swift",
+      "kind": "StringLiteral",
+      "offset": 1369,
+      "length": 18,
+      "value": "\"Image not loaded\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Error\/ErrorView.swift",
+      "kind": "StringLiteral",
+      "offset": 1437,
+      "length": 27,
+      "value": "\"Return - Image not loaded\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/FiltersView.swift",
+      "kind": "StringLiteral",
+      "offset": 2450,
+      "length": 19,
+      "value": "\"Could not preview\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/FiltersView.swift",
+      "kind": "StringLiteral",
+      "offset": 2540,
+      "length": 16,
+      "value": "\"Apply filters!\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Shared\/URL+temporalDir.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 5,
+      "value": "\"tmp\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Shared\/URL+temporalDir.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 5,
+      "value": "\"mp4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/ChooseIntensityLevelViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 464,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/ChooseIntensityLevelViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 711,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 235,
+      "length": 31,
+      "value": "\"com.truvideo.TruvideoSdkImage\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 6,
+      "value": "\"crop\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 13,
+      "value": "\"pencil.line\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 35,
+      "value": "\"line.3.horizontal.decrease.circle\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 18,
+      "value": "\"square.resize.up\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 622,
+      "length": 6,
+      "value": "\"flip\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 708,
+      "length": 8,
+      "value": "\"rotate\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 806,
+      "length": 22,
+      "value": "\"arrow.uturn.backward\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 875,
+      "length": 16,
+      "value": "\"arrow.backward\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 938,
+      "length": 8,
+      "value": "\"pencil\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 993,
+      "length": 16,
+      "value": "\"textformat.alt\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 1056,
+      "length": 32,
+      "value": "\"squareshape.dotted.squareshape\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 1138,
+      "length": 12,
+      "value": "\"chevron.up\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandImage.swift",
+      "kind": "StringLiteral",
+      "offset": 1202,
+      "length": 14,
+      "value": "\"chevron.down\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Orientation\/AppOrientationProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 432,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/FiltersManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 6780,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 734,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 776,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 838,
+      "length": 3,
+      "value": "-90"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/DrawingView.swift",
+      "kind": "StringLiteral",
+      "offset": 1429,
+      "length": 22,
+      "value": "\"Could not load imaga\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/ChooseIntensityLevelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3889,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/ChooseIntensityLevelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3900,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/ChooseIntensityLevelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3944,
+      "length": 2,
+      "value": "41"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/ChooseIntensityLevelView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3988,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "@__swiftmacro_16TruvideoSdkImage33_4F79335800F79184B18FF0C9DB0397A1Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1179,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "@__swiftmacro_16TruvideoSdkImage33_4F79335800F79184B18FF0C9DB0397A1Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1190,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "@__swiftmacro_16TruvideoSdkImage33_4F79335800F79184B18FF0C9DB0397A1Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1242,
+      "length": 2,
+      "value": "41"
+    },
+    {
+      "filePath": "@__swiftmacro_16TruvideoSdkImage33_4F79335800F79184B18FF0C9DB0397A1Ll7PreviewfMf0_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1294,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/CI.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 6,
+      "value": "\"PROD\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/ImageEditorView.swift",
+      "kind": "StringLiteral",
+      "offset": 3970,
+      "length": 22,
+      "value": "\"Could not load image\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/ImageEditorView.swift",
+      "kind": "StringLiteral",
+      "offset": 4062,
+      "length": 14,
+      "value": "\"Return image\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandColor.swift",
+      "kind": "FloatLiteral",
+      "offset": 220,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandColor.swift",
+      "kind": "FloatLiteral",
+      "offset": 232,
+      "length": 6,
+      "value": "0.7569"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandColor.swift",
+      "kind": "FloatLiteral",
+      "offset": 246,
+      "length": 6,
+      "value": "0.0275"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandColor.swift",
+      "kind": "FloatLiteral",
+      "offset": 329,
+      "length": 6,
+      "value": "0.3804"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandColor.swift",
+      "kind": "FloatLiteral",
+      "offset": 344,
+      "length": 6,
+      "value": "0.3804"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Resources\/BrandColor.swift",
+      "kind": "FloatLiteral",
+      "offset": 358,
+      "length": 6,
+      "value": "0.3804"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/AdjustImageViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 483,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/AdjustImageViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 527,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/CanvasView.swift",
+      "kind": "StringLiteral",
+      "offset": 5807,
+      "length": 22,
+      "value": "\"Could not load image\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/CanvasView.swift",
+      "kind": "StringLiteral",
+      "offset": 5894,
+      "length": 17,
+      "value": "\"Merge drawings!\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/ImageCropper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 655,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/ImageCropper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 693,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Line Image\/LineImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 300,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Line Image\/LineImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 2700,
+      "length": 8,
+      "value": "\"pencil\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Line Image\/LineImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 2756,
+      "length": 8,
+      "value": "\"pencil\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Line Image\/LineImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2802,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Line Image\/LineImageView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2815,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Common\/CircularButton.swift",
+      "kind": "StringLiteral",
+      "offset": 708,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Common\/CircularButton.swift",
+      "kind": "StringLiteral",
+      "offset": 771,
+      "length": 9,
+      "value": "\"Testing\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/TransformView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 556,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/TransformView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5077,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/AdjustImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 2432,
+      "length": 19,
+      "value": "\"Could not preview\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/AdjustImageView.swift",
+      "kind": "StringLiteral",
+      "offset": 2526,
+      "length": 19,
+      "value": "\"Apply adjustment!\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1931,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1851,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2254,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2174,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2415,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2752,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2855,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2903,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2950,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2995,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5649,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6378,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7110,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Cropper\/CropperViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7499,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/ChooseIntensityViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/ChooseIntensityViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/ChooseIntensityViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 449,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/ChooseIntensityViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 460,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/ChooseIntensityViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 493,
+      "length": 2,
+      "value": "41"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/ChooseIntensityViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 530,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/ChooseIntensityViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 569,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/ChooseIntensityViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 816,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Common\/RectangleButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 697,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Common\/RectangleButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1306,
+      "length": 8,
+      "value": "\"cancel\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Common\/RectangleButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1336,
+      "length": 9,
+      "value": "\"Testing\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Common\/RectangleButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1394,
+      "length": 6,
+      "value": "\"save\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Common\/RectangleButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1422,
+      "length": 9,
+      "value": "\"Testing\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/FiltersViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 622,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/FiltersViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 666,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/TruvideoSdkImageFileDescriptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1372,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/TruvideoSdkImageFileDescriptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1387,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/TruvideoSdkImageFileDescriptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1372,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/TruvideoSdkImageFileDescriptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1387,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/TruvideoSdkImageEditorPreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1427,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/TruvideoSdkImageEditorPreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2295,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/TruvideoSdkImageEditorPreset.swift",
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 28,
+      "value": "\"TruvideoSdkImage.TruvideoSdkImageEditorPreset\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/TruvideoSdkImageEditorPreset.swift",
+      "kind": "StringLiteral",
+      "offset": 5059,
+      "length": 28,
+      "value": "\"TruvideoSdkImage.TruvideoSdkImageEditorResult\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Text Image\/TextImageViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Text Image\/TextImageViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 237,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Text Image\/TextImageViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 277,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Text Image\/TextImageViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 319,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Text Image\/TextImageViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Text Image\/TextImageViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 464,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Text Image\/TextImageViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 511,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Text Image\/TextImageViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 585,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Text Image\/TextImageViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 598,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "FloatLiteral",
+      "offset": 3941,
+      "length": 4,
+      "value": "50.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5214,
+      "length": 3,
+      "value": "-90"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5255,
+      "length": 4,
+      "value": "-360"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5288,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "Array",
+      "offset": 5854,
+      "length": 312,
+      "value": "[\"pencil.circle.fill\", \"square.and.pencil.circle\", \"sleep.circle\", \"snowflake.circle\", \"tropicalstorm.circle\", \"circle.dotted.circle.fill\", \"pencil.circle.fill\", \"square.and.pencil.circle\", \"sleep.circle\", \"snowflake.circle\"]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6186,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6190,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6340,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "StringLiteral",
+      "offset": 6344,
+      "length": 10,
+      "value": "\"Original\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "StringLiteral",
+      "offset": 6357,
+      "length": 18,
+      "value": "\"Filter #\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "StringLiteral",
+      "offset": 6374,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6816,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Adjustment\/SelectAdjustmentView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6853,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/CanvasViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 740,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/CanvasViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 787,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/CanvasViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 888,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/CanvasViewModel.swift",
+      "kind": "Array",
+      "offset": 995,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/CanvasViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1164,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/ChooseLineWidthView.swift",
+      "kind": "FloatLiteral",
+      "offset": 335,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/ChooseLineWidthView.swift",
+      "kind": "FloatLiteral",
+      "offset": 379,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/ChooseLineWidthView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1759,
+      "length": 3,
+      "value": "4.0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/SelectFilterView.swift",
+      "kind": "StringLiteral",
+      "offset": 4285,
+      "length": 27,
+      "value": "\"Could not load test image\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/SelectFilterView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/SelectFilterView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4343,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/SelectFilterView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4464,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/SelectFilterView.swift",
+      "kind": "StringLiteral",
+      "offset": 4468,
+      "length": 10,
+      "value": "\"Original\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/SelectFilterView.swift",
+      "kind": "StringLiteral",
+      "offset": 4481,
+      "length": 18,
+      "value": "\"Filter #\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/SelectFilterView.swift",
+      "kind": "StringLiteral",
+      "offset": 4498,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Helpers\/View+Conditionals.swift",
+      "kind": "BooleanLiteral",
+      "offset": 912,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Helpers\/View+Conditionals.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1259,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Examples\/ImageEditorExample.swift",
+      "kind": "BooleanLiteral",
+      "offset": 223,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Common\/ResponsiveImage.swift",
+      "kind": "StringLiteral",
+      "offset": 1056,
+      "length": 22,
+      "value": "\"Could not load image\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Line Image\/LineImage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 962,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Line Image\/LineImage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1149,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Line Image\/LineImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1374,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Line Image\/LineImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1411,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Logger\/ImageLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 8,
+      "value": "\"0.0.01\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Canvas\/Text Image\/BrandTextField.swift",
+      "kind": "StringLiteral",
+      "offset": 1203,
+      "length": 11,
+      "value": "\"TruvideoSdkImage.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/SelectFilterViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 455,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/SelectFilterViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 639,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/SelectFilterViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 725,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/Filters\/SelectFilterViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 767,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/TruvideoSdkImageEditorView.swift",
+      "kind": "StringLiteral",
+      "offset": 1321,
+      "length": 10,
+      "value": "\"IMG_4438\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/TruvideoSdkImageEditorView.swift",
+      "kind": "StringLiteral",
+      "offset": 1341,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/TruvideoSdkImageEditorView.swift",
+      "kind": "StringLiteral",
+      "offset": 1427,
+      "length": 9,
+      "value": "\"Problem\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/TruvideoSdkImage\/Editor\/TruvideoSdkImageEditorView.swift",
+      "kind": "StringLiteral",
+      "offset": 1603,
+      "length": 12,
+      "value": "\"cached_img\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/derivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TruvideoSdkImage\/IntermediateBuildFilesPath\/TruvideoSdkImage.build\/Release-iphonesimulator\/TruvideoSdkImage.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 729,
+      "length": 10,
+      "value": "\"IMG_4438\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/derivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TruvideoSdkImage\/IntermediateBuildFilesPath\/TruvideoSdkImage.build\/Release-iphonesimulator\/TruvideoSdkImage.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 6,
+      "value": "\"flip\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/derivedData\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TruvideoSdkImage\/IntermediateBuildFilesPath\/TruvideoSdkImage.build\/Release-iphonesimulator\/TruvideoSdkImage.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 985,
+      "length": 8,
+      "value": "\"rotate\""
+    }
+  ]
+}
