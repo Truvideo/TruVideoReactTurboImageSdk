@@ -1,0 +1,92 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TruvideoSdkImage
+import AVKit
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import Metal
+import MetalKit
+import Swift
+import SwiftUI
+@_exported import TruvideoSdkImage
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+
+
+extension SwiftUI.View {
+  public func presentTruvideoSdkImageEditorView(isPresented: SwiftUI.Binding<Swift.Bool>, preset: TruvideoSdkImage.TruvideoSdkImageEditorPreset, completion: @escaping (TruvideoSdkImage.TruvideoSdkImageEditorResult) -> Swift.Void) -> some SwiftUI.View
+  
+}
+
+
+
+
+
+extension UIKit.UIDeviceOrientation {
+  public static func currentAppOrientation() -> UIKit.UIDeviceOrientation
+}
+
+
+public protocol TruvideoSdkImageInterface {
+  func configureTruvideoSdkAppDelegate(_ appDelegate: any TruvideoSdkImage.TruvideoSdkImageAppDelegate)
+}
+public let TruvideoSdkImage: any TruvideoSdkImage.TruvideoSdkImageInterface
+
+
+
+
+
+public protocol TruvideoSdkImageAppDelegate : UIKit.UIApplicationDelegate {
+  var orientationLock: UIKit.UIInterfaceOrientationMask { get set }
+  func application(_ application: UIKit.UIApplication, supportedInterfaceOrientationsFor window: UIKit.UIWindow?) -> UIKit.UIInterfaceOrientationMask
+}
+
+
+
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public func presentTruvideoSdkImageEditorView(preset: TruvideoSdkImage.TruvideoSdkImageEditorPreset, onComplete: @escaping (TruvideoSdkImage.TruvideoSdkImageEditorResult) -> Swift.Void)
+}
+public struct TruvideoSdkImageEditorPreset {
+  public init(imageURL: Foundation.URL, outputFormat: TruvideoSdkImage.TruvideoSdkImageOutputFormat = .jpg(compressionQuality: 100), outputURL: Foundation.URL? = nil, newSize: CoreFoundation.CGSize? = nil)
+  public init(image: UIKit.UIImage, outputFormat: TruvideoSdkImage.TruvideoSdkImageOutputFormat = .jpg(compressionQuality: 100), outputURL: Foundation.URL? = nil, newSize: CoreFoundation.CGSize? = nil)
+}
+public enum TruvideoSdkImageOutputFormat {
+  case png
+  case jpg(compressionQuality: Swift.Int)
+}
+public struct TruvideoSdkImageEditorResult {
+  public let editedImage: UIKit.UIImage?
+  public let editedImageURL: Foundation.URL?
+}
+public enum TruvideoSdkImageError : Swift.Error, Swift.Equatable {
+  case userNotAuthenticated
+  case invalidFile
+  case notFoundImage
+  case invalidCropRange
+  case unableToCropImage
+  case unableToCompressImage
+  case unableToResizeImage
+  case unableToSaveCroppedImage
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: TruvideoSdkImage.TruvideoSdkImageError, b: TruvideoSdkImage.TruvideoSdkImageError) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+
+
+public protocol TruvideoOrientationInterface {
+  var appOrientationPublisher: Combine.AnyPublisher<UIKit.UIDeviceOrientation, Swift.Never> { get }
+  var isTrackingAppOrientationChanges: Swift.Bool { get }
+  var truvideoOrientationMask: UIKit.UIInterfaceOrientationMask { get }
+  func lockToTruvideoOrientation()
+  func unlockAppOrientation()
+  func configureTruvideoSdkAppDelegate(_ appDelegate: any TruvideoSdkImage.TruvideoSdkImageAppDelegate)
+}
+
+
+
+extension TruvideoSdkImage.TruvideoSdkImageError : Swift.Hashable {}
