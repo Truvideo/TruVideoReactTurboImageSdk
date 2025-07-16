@@ -1520,7 +1520,9 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
+    - truvideo-sdk-image
     - Yoga
+  - truvideo-sdk-image (76.4.3)
   - Yoga (0.0.0)
 
 DEPENDENCIES:
@@ -1597,6 +1599,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - SocketRocket
+    - truvideo-sdk-image
 
 EXTERNAL SOURCES:
   boost:
@@ -1802,7 +1805,8 @@ SPEC CHECKSUMS:
   ReactCodegen: 1baa534318b19e95fb0f02db0a1ae1e3c271944d
   ReactCommon: 6014af4276bb2debc350e2620ef1bd856b4d981c
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
-  truvideo-react-turbo-image-sdk: abada0ccbd68ca40daa13b0f8c26d455b07c6de7
+  truvideo-react-turbo-image-sdk: c1499b7e19e46434764eb72bfdde5a55cfc31b22
+  truvideo-sdk-image: 9f113b0fb0ec327f236dcd83d85b5a4b09e0ff88
   Yoga: 78d74e245ed67bb94275a1316cdc170b9b7fe884
 
 PODFILE CHECKSUM: a7356ee569493511dc5758ec4bec537e0543ff8f

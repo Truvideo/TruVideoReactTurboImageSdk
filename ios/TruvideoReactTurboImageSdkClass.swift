@@ -29,8 +29,7 @@ import React
             reject("no_path", "There is no result path", error)
         }
     }
-    
-   
+  
     @objc public func launchImageEdit(inputPath: String,outputPath: String,resolve: @escaping RCTPromiseResolveBlock, reject: @escaping RCTPromiseRejectBlock) {
         DispatchQueue.main.async{
             guard let rootViewController = UIApplication.shared.keyWindow?.rootViewController else {
@@ -39,20 +38,43 @@ import React
                 reject("E_NO_ROOT_VIEW_CONTROLLER", "No root view controller foundh",error)
                 return
             }
-          if let imageURL = URL(string: "file://\(inputPath)") ,let outputURL = URL(string: "file://\(outputPath)") {
-                let configuration = TruvideoSdkImageEditorPreset(imageURL: imageURL, outputURL: outputURL)
-                
-                rootViewController.presentTruvideoSdkImageEditorView(preset: configuration, onComplete: { result in
-                    if let editedImageUrl: URL = result.editedImageURL {
-                        resolve(editedImageUrl.absoluteString)
-                    } else{
-                        resolve("")
-                    }
-                })
-            } else{
-                let error = NSError(domain:"com.TruvideoImageSDk.ImageSDK", code: 500, userInfo: [NSLocalizedDescriptionKey: "Failed to get directory path"])
-                reject("NO_PATH_Found", "Failed to get directory path", error)
-            }
+          guard let imageURL = URL(string: inputPath),
+                let outputURL = URL(string: "file://\(outputPath)") else {
+              let error = NSError(
+                  domain: "com.TruvideoImageSDk.ImageSDK",
+                  code: 500,
+                  userInfo: [NSLocalizedDescriptionKey: "Failed to get directory path"]
+              )
+              reject("NO_PATH_Found", "Failed to get directory path", error)
+              return
+          }
+          
+          
+          let output: TruvideoSdkImageFileDescriptor = .custom(rawPath: outputURL.absoluteString)
+          let configuration = TruvideoSdkImageEditorPreset(imageURL: imageURL, output: output)
+          
+          rootViewController.presentTruvideoSdkImageEditorView(preset: configuration) { response in
+              if let editedImageUrl = response.editedImageURL {
+                  resolve(editedImageUrl.absoluteString)
+              } else {
+                  resolve("")
+              }
+          }
+          
+//          if let imageURL = URL(string: "file://\(inputPath)") ,let outputURL = URL(string: "file://\(outputPath)") {
+//                let configuration = TruvideoSdkImageEditorPreset(imageURL: imageURL, outputURL: outputURL)
+//                
+//                rootViewController.presentTruvideoSdkImageEditorView(preset: configuration, onComplete: { result in
+//                    if let editedImageUrl: URL = result.editedImageURL {
+//                        resolve(editedImageUrl.absoluteString)
+//                    } else{
+//                        resolve("")
+//                    }
+//                })
+//            } else{
+//                let error = NSError(domain:"com.TruvideoImageSDk.ImageSDK", code: 500, userInfo: [NSLocalizedDescriptionKey: "Failed to get directory path"])
+//                reject("NO_PATH_Found", "Failed to get directory path", error)
+//            }
         }
     }
   @objc public func getInfo(inputPath: String,resolve: @escaping RCTPromiseResolveBlock, reject: @escaping RCTPromiseRejectBlock){
@@ -61,3 +83,8 @@ import React
   
   
 }
+
+
+
+
+
