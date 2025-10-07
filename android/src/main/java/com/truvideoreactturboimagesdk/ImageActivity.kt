@@ -15,8 +15,11 @@ class ImageActivity :  ComponentActivity(){
     enableEdgeToEdge()
     setContentView(R.layout.activity_image)
     val inputPath = intent.getStringExtra("inputPath")
-    val outputPath = intent.getStringExtra("outputPath")
+    var outputPath = intent.getStringExtra("outputPath")
 
+    if (outputPath != null && !outputPath.endsWith(".jpg", ignoreCase = true) && !outputPath.endsWith(".jpeg", ignoreCase = true) && !outputPath.endsWith(".png", ignoreCase = true)) {
+      outputPath += ".jpeg"
+    }
     launcher = registerForActivityResult(TruvideoSdkImageEditContract()){ resultPath: String? ->
       mainPromise!!.resolve(resultPath ?: "")
       finish()

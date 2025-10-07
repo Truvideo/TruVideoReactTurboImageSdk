@@ -55,7 +55,7 @@ import React
           
           rootViewController.presentTruvideoSdkImageEditorView(preset: configuration) { response in
               if let editedImageUrl = response.editedImageURL {
-                  resolve(editedImageUrl.absoluteString)
+                  resolve(editedImageUrl.path)
               } else {
                   resolve("")
               }
