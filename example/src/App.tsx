@@ -1,5 +1,5 @@
 import { Text, View, StyleSheet } from 'react-native';
-import {  } from 'truvideo-react-turbo-image-sdk';
+import {  } from '@trunpm/truvideo-react-turbo-image-sdk';
 
 const result = 3;
 
