@@ -31,7 +31,7 @@ class TruvideoReactTurboImageSdkModule(reactContext: ReactApplicationContext) :
   override fun getFilePath(fileName: String?, promise: Promise?) {
     // get result path with dynamic name
     val basePath  = currentActivity!!.filesDir
-    promise?.resolve( File("$basePath/camera/$fileName").path)
+    promise?.resolve( File("$basePath/$fileName").path)
   }
 
   override fun edit(imagePath: String?,
