@@ -1,6 +1,6 @@
 {
   "name": "@trunpm/truvideo-react-turbo-image-sdk",
-  "version": "2.1.1",
+  "version": "2.1.1-beta.1",
   "description": "Image Module",
   "keywords": [
     "react-native",
