@@ -16,8 +16,13 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
+core_sdk_path = File.expand_path('../../../TruVideoReactTurboCoreSdk', __dir__)
+
 target 'TruvideoReactTurboImageSdkExample' do
   config = use_native_modules!
+
+  # Resolve the local core SDK while developing the sibling packages together.
+  pod 'truvideo-react-turbo-core-sdk', :path => core_sdk_path if File.exist?(File.join(core_sdk_path, 'truvideo-react-turbo-core-sdk.podspec'))
 
   use_react_native!(
     :path => config[:reactNativePath],
