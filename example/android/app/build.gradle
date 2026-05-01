@@ -116,6 +116,12 @@ android {
         // Suppress metadata version warnings for dependencies compiled with newer Kotlin
         freeCompilerArgs += ["-Xskip-metadata-version-check"]
     }
+
+    packaging {
+        resources {
+            pickFirsts += "META-INF/versions/9/OSGI-INF/MANIFEST.MF"
+        }
+    }
 }
 
 dependencies {

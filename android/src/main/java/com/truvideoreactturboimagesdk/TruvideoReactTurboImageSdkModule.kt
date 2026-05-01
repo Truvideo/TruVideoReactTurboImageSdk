@@ -10,9 +10,8 @@ import com.truvideo.sdk.image.model.TruvideoSdkImageCropInformation
 import com.truvideo.sdk.image.model.TruvideoSdkImageInformation
 import com.truvideo.sdk.image.model.TruvideoSdkImageOutputFormat
 import com.truvideo.sdk.image.model.TruvideoSdkImageRotation
-import kotlinx.serialization.json.JsonObject
+import com.truvideo.sdk.model.exceptions.TruvideoSdkException
 import org.json.JSONObject
-import truvideo.sdk.common.exceptions.TruvideoSdkException
 import java.io.File
 
 @ReactModule(name = TruvideoReactTurboImageSdkModule.NAME)
@@ -49,8 +48,12 @@ class TruvideoReactTurboImageSdkModule(reactContext: ReactApplicationContext) :
                     outputFormat: String?,
                     compressionQuality: Double,
                     promise: Promise?){
+    val crop = cropInformation ?: run {
+      promise?.reject("INVALID_ARGUMENT", "cropInformation is required")
+      return
+    }
     val mainRotation = if(rotation == null) null else TruvideoSdkImageRotation.valueOf(rotation)
-    val jsonObject = JSONObject(cropInformation)
+    val jsonObject = JSONObject(crop)
     val mainCrop = TruvideoSdkImageCropInformation(jsonObject.getString("left").toFloat(),
       jsonObject.getString("top").toFloat(),
         jsonObject.getString("width").toFloat(),

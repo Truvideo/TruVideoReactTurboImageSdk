@@ -22,10 +22,9 @@ class TruvideoReactTurboImageSdkPackage : BaseReactPackage() {
       moduleInfos[TruvideoReactTurboImageSdkModule.NAME] = ReactModuleInfo(
         TruvideoReactTurboImageSdkModule.NAME,
         TruvideoReactTurboImageSdkModule.NAME,
-        false,  // canOverrideExistingModule
-        false,  // needsEagerInit
-        true,  // hasConstants
-        false,  // isCxxModule
+        false, // canOverrideExistingModule
+        false, // needsEagerInit
+        false, // isCxxModule
         true // isTurboModule
       )
       moduleInfos
